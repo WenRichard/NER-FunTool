@@ -1,6 +1,8 @@
 ## NER实验及模型部署
 
 本NER项目包含多个中文数据集，模型采用BiLSTM+CRF、BERT+Softmax、BERT+Cascade、BERT+WOL等，其中BiLSTM+CRF部分采用的字符向量为BERT字向量，最后在CLUE_NER数据集上进行实验对比，并采用TFServing进行模型部署进行线上推理和线下推理。  
+详细请见知乎：  
+[NER实战：从实验到BERT模型部署服务](https://zhuanlan.zhihu.com/p/378307648)
 
 #### 如何运行？以运行BERT+CRF模型为例
 - step1：模型训练  
@@ -10,6 +12,12 @@ python predict_bert_crf.py
 - step3：模型推理预测  
 python infer_online.py 
   
+**模型评价方式**
+对于NER模型，评判模型是否好坏的方法有2种
+- **标签评价法**：对模型预测的标签进行评价，计算预测标签和原始标签的p，r，f1值  
+tag_evaluating.py 其中可以设置是否不把O标签考虑在内  
+- **实体评价法**：对预测的实体进行评价，计算预测实体的f1值等等    
+entity_evaluating.py 
 
 #### 模型推理模模式  
 一、基于checkpoints进行online，offline推理预测  
@@ -32,5 +40,14 @@ python infer_online.py
 |          | casecade_bert_crf | 0.892     | 0.842  | 0.866 | 0.800     | 3     |              |
 
 
+**TODO**  
+1.加上ALBERT，ROBERTA等预训练语言模型  
+2.在模型中融合入词向量等特征信息  
 
+**Reference**  
+[NER](https://github.com/wavewangyue/ner)
+
+**如果觉得我的工作对您有帮助，请不要吝啬右上角的小星星哦！欢迎Fork和Star！也欢迎提交PR！**    
+**留言请在Issues或者email  richardxie1205@gmail.com**
+    
 
