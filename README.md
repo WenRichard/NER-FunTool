@@ -45,8 +45,8 @@ entity_evaluating.py
 2.在模型中融合入词向量等特征信息  
 
 **Reference**  
-[NER](https://github.com/wavewangyue/ner)  
-[CLUE_NER](https://arxiv.org/abs/2001.04351)
+1.[NER](https://github.com/wavewangyue/ner)  
+2.[CLUE_NER](https://arxiv.org/abs/2001.04351)
 
 **如果觉得我的工作对您有帮助，请不要吝啬右上角的小星星哦！欢迎Fork和Star！也欢迎提交PR！**    
 **留言请在Issues或者email  richardxie1205@gmail.com**
