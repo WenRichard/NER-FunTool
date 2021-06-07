@@ -4,6 +4,10 @@
 详细请见知乎：  
 [NER实战：从实验到BERT模型部署服务](https://zhuanlan.zhihu.com/p/378307648)
 
+**运行环境**  
+python 3.6  
+tensorflow 1.14  
+
 #### 如何运行？以运行BERT+CRF模型为例
 - step1：模型训练  
 python run_bert_crf.py 
