@@ -1,6 +1,7 @@
 ## NER实验及模型部署
 
 本NER项目包含多个中文数据集，模型采用BiLSTM+CRF、BERT+Softmax、BERT+Cascade、BERT+WOL等，其中BiLSTM+CRF部分采用的字符向量为BERT字向量，最后在CLUE_NER数据集上进行实验对比，并采用TFServing进行模型部署进行线上推理和线下推理。  
+  
 详细请见知乎：  
 [NER实战：从实验到BERT模型部署服务](https://zhuanlan.zhihu.com/p/378307648)
 
