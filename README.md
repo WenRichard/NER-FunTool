@@ -46,7 +46,7 @@ entity_evaluating.py
 
 **Reference**  
 1.[NER](https://github.com/wavewangyue/ner)  
-2.[CLUE_NER](https://arxiv.org/abs/2001.04351)
+2.[CLUE_NER](https://arxiv.org/abs/2001.04351)  
 3.[NerAdapter](https://github.com/Vincent131499/NerAdapter)
 
 **如果觉得我的工作对您有帮助，请不要吝啬右上角的小星星哦！欢迎Fork和Star！也欢迎提交PR！**    
