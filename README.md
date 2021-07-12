@@ -48,13 +48,25 @@ entity_evaluating.py
 **TODO**  
 1.加上ALBERT，ROBERTA等预训练语言模型  
 2.在模型中融合入词向量等特征信息  
+  
+**Cite**     
+如果你在研究中使用了NER-FunTool，请按如下格式引用：  
 
+```
+@software{NER-FunTool,
+  author = {ZhengWen Xie},
+  title = {NER-FunTool: A Fun Tool for Chinese NER},
+  year = {2021},
+  url = {https://github.com/WenRichard/NER-FunTool},
+}
+```
+  
 **Reference**  
 1.[NER](https://github.com/wavewangyue/ner)  
 2.[CLUE_NER](https://arxiv.org/abs/2001.04351)  
 3.[NerAdapter](https://github.com/Vincent131499/NerAdapter)
 
-**如果觉得我的工作对您有帮助，请不要吝啬右上角的小星星哦！欢迎Fork和Star！也欢迎提交PR！**    
+**欢迎Fork和Star！也欢迎提交PR！**    
 **留言请在Issues或者email  richardxie1205@gmail.com**
     
 
